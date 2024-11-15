@@ -24,13 +24,13 @@ const convert = () => {
 
 return (
   <div
-      className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
+      className="min-h-screen w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat bg-center"
       style={{
           backgroundImage: `url('https://images.pexels.com/photos/47344/dollar-currency-money-us-dollar-47344.jpeg?auto=compress&cs=tinysrgb&w=600')`
       }}
   >
-      <div className="w-full">
-          <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+    
+          <div className="w-full max-w-md mx-4 mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
               <form
                   onSubmit={(e) => {
                       e.preventDefault();
@@ -72,7 +72,7 @@ return (
                   </button>
               </form>
           </div>
-      </div>
+      
   </div>
 );
 }
